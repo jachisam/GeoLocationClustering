@@ -26,6 +26,7 @@ The following is a high-level pseudo code for our algorithm for 5 clusters:
 
         for every remaining point:
             compare distance to each centroid
-            assign point to cluster with smallest distance recalculate the centroid for each cluster
+            assign point to cluster with smallest distance 
+            recalculate the centroid for each cluster
             if difference between old and new centroids < 0.01:
                 keepGoing = false;
